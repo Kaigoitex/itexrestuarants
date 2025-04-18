@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITEX for Restaurants | Trade, Grow & Save</title>
+  <link rel="stylesheet" href="style.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-277TDEJWWK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-277TDEJWWK');
+  </script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #FF5A5F;
+      padding: 3rem 1rem;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+    .logo-bg {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 80px;
+      opacity: 0.08;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p.subtitle {
+      font-size: 1.2rem;
+    }
+    .video-section, .testimonial-section, .cta-section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+    }
+    .cta-button {
+      background-color: #FF5A5F;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/ITEX_logo.svg/2560px-ITEX_logo.svg.png" alt="ITEX Logo" class="logo-bg" />
+    <h1>Bring More Diners to Your Restaurant with ITEX</h1>
+    <p class="subtitle">Fill slow hours, gain loyal customers, and save cash through smart trade</p>
+  </header>
+
+  <section class="video-section">
+    <h2>How ITEX Helps Restaurants Like Yours</h2>
+    <iframe src="https://www.youtube.com/embed/DVBaICcGVtM?enablejsapi=1" allowfullscreen></iframe>
+  </section>
+
+  <section class="testimonial-section">
+    <h2>What Other Restaurant Owners Are Saying</h2>
+    <p>
+      "Joining ITEX brought in new customers during our slower weekdays — and we used trade dollars to pay for marketing, printing, and even plumbing. Total game changer!"
+      <br><strong>– Carlos M., Restaurant Owner in Miami</strong>
+    </p>
+  </section>
+
+  <section class="cta-section">
+    <h2>Want to See If ITEX is Right for You?</h2>
+    <p>Schedule a quick call to learn how ITEX can help your restaurant grow — with no upfront cost.</p>
+    <a href="https://calendly.com/kai-go-itex/itex-one-on-one" class="cta-button">Book a Free Call</a>
+  </section>
+
+  <footer>
+    &copy; 2025 ITEX Florida | Helping Restaurants Grow Through Barter
+  </footer>
+</body>
+</html>
