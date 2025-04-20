@@ -30,13 +30,6 @@
       width: 80px;
       opacity: 0.1;
     }
-    .watermark {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      width: 60px;
-      opacity: 0.07;
-    }
     h1 {
       font-size: 2.2em;
       margin-bottom: 10px;
@@ -67,6 +60,23 @@
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       margin-bottom: 25px;
+    }
+    .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .benefit-box {
+      flex: 1 1 250px;
+      background: #fff3e0;
+      padding: 20px;
+      border-left: 5px solid #f57c00;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      font-weight: bold;
+      text-align: center;
     }
     .cta {
       background-color: #f57c00;
@@ -142,7 +152,13 @@
   <section id="video">
     <h2>How ITEX Barter Works</h2>
     <iframe src="https://www.youtube.com/embed/DVBaICcGVtM?si=rWNeyAewdrvyikku" frameborder="0" allowfullscreen></iframe>
-    <p>No upfront cost. Fill slow times. Pay for services with food. ITEX helps you grow without spending cash by turning open tables into real value.</p>
+    <div class="benefits">
+      <div class="benefit-box">✅ No Upfront Cost</div>
+      <div class="benefit-box">🍽 Fill Slow Times</div>
+      <div class="benefit-box">💵 Pay for Services with Food</div>
+      <div class="benefit-box">📈 Get New Local Customers</div>
+      <div class="benefit-box">🔄 Trade for What You Need</div>
+    </div>
   </section>
 
   <section id="testimonial">
