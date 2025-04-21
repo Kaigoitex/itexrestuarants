@@ -170,13 +170,26 @@
 
   <section id="signup">
     <h2>Sign Up for a Free Local Consultation</h2>
-    <form action="#" method="POST">
-      <input type="text" name="business" placeholder="Business Name" required>
-      <input type="text" name="contact" placeholder="Best Contact (Phone or Email)" required>
-      <input type="text" name="availability" placeholder="Your Availability">
-      <textarea name="services" rows="4" placeholder="Top services you need (e.g. cleaning, marketing, printing)"></textarea>
-      <button type="submit">Submit</button>
-    </form>
+ <form action="https://formsubmit.co/kai.go@itex.net" method="POST">
+  <!-- Prevent spam -->
+  <input type="hidden" name="_captcha" value="false">
+  <!-- Redirect after form submission -->
+  <input type="hidden" name="_next" value="https://kaigoitex.github.io/ITEXLanding/thank-you.html">
+
+  <label>Business Name</label>
+  <input type="text" name="Business Name" required>
+
+  <label>Contact Info (Phone or Email)</label>
+  <input type="text" name="Contact" required>
+
+  <label>Availability</label>
+  <input type="text" name="Availability" required>
+
+  <label>Top Services You Need</label>
+  <input type="text" name="Services Needed">
+
+  <button type="submit">Submit</button>
+</form>
   </section>
 
   <section>
